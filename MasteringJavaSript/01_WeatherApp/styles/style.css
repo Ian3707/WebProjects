@@ -1,0 +1,130 @@
+/* Reset default */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Style */
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    max-height: 90vh;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 5vh auto 0;
+    border-radius: 20px;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-image: url("../images/search.png");
+    background-position: 22px 21px; 
+    background-size: 25%;
+    background-repeat: no-repeat
+}
+
+.search button img {
+    width: 16px;
+    
+}
+
+.weather__icon {
+    width: 170px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+/* .wind_speed {
+    height: 66px;
+} */
+
+.weather__data {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather__data img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.weather__values {
+    font-size: 28px;
+    text-align: left;
+    /* margin-top: -10px; */
+    /* margin-bottom: -10px; */
+}
+
+.weather__param {
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
